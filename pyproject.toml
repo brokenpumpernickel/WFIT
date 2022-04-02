@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "wfit"
+version = "1.0.0"
+description = "Additional materials and visualisations for WFIT"
+authors = ["Maciej J. Mrowinski <47922372+brokenpumpernickel@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.10"
+numpy = "^1.21.2"
+sympy = "^1.9"
+matplotlib = "^3.4.3"
+jupyterlab = "^3.2.0"
+scipy = "^1.7.1"
+ipywidgets = "^7.6.5"
+jupyterlab-git = "^0.36.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
